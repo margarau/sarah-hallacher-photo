@@ -1,3 +1,96 @@
-body {
-	text-decoration: underline;
+h1 {
+font-family: 'Montserrat', sans-serif;
+padding: 24px;
+font-size: 3em;
+text-align: center;
+
 }
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+
+}
+
+
+nav a {
+display: inline-block;
+background-color: black;
+color: white;
+font-size: 1.3em;
+font-family: 'Open Sans', sans-serif;
+text-decoration: none;
+margin: 0;
+width: 320px;
+text-align: center;
+float: right;
+padding: 10px;
+
+
+}
+
+nav a:hover {
+color: white;
+background-color: gray;
+}
+
+img {
+padding: .8em;
+float: left;
+}
+
+body {
+background-color:#FFFFFF;
+color: #000;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+
+}
+
+footer {
+text-align: center;
+float: right;
+padding: 10px 20px;
+padding-top: 200px;
+padding-right: 470px;
+}
+
+h2 {
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-style: italic; 
+font-weight: bolder;
+
+}
+
+h3 {
+text-align: center;
+border-bottom: 4px solid black;
+display: inline-block;
+font-weight: 800;
+margin: 10px 630px;
+
+}
+
+p {
+	text-indent: 50px;
+	margin: 10px 50px;
+}
+
+img {
+	float: right;
+	margin: 0px 350px;
+	margin-top: 0px;
+}
+
+#pics {
+	display: block;
+	float: right;
+	
+}
+
+
